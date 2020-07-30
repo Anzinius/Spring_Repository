@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping
 //public class HelloController{
 //    @GetMapping
 //   public static void main(String[] args){
@@ -50,6 +50,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
     @GetMapping("/api/hello")
     public String hello() {
-        return "hello";
+        return "goodnight GUNHO";
     }
 }
